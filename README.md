@@ -6,4 +6,4 @@ Construya y configure su propia blockain a partir del archivo génesis que he de
 
 1. Archivo génesis y lanzamiento en Geth
 
-![alt text](https://github.com/anakb/dev-pec1/1.png "Logo Title Text 1")
+![alt text](https://github.com/anakb/dev-pec1/blob/master/1.png "Configuración de nodo en cliente geth")
