@@ -22,7 +22,7 @@ Con otra inicialización del cliente geth, he abierto la consola de de geth:
 
 `geth --datadir=$HOME/.rinkeby attach ipc:$HOME/.rinkeby/geth.ipc console`
 
-A continuación, he desplegado el comando `admin`que me ha dado como resultado la información de mi nodo (a la que acompaña el hash/address del nodo génesis `genesis: "0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177`"), confirmo el hash del nodo génesis de la red de pruebas de Rinkeby en Etherscan y el lanzado para mi nodo coinciden.
+A continuación, he desplegado el comando `admin`que me ha dado como resultado la información de mi nodo (a la que acompaña el hash/address del nodo génesis `genesis: "0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177`"), confirmo el hash del nodo génesis de la red de pruebas de Rinkeby en Etherscan y el address lanzado para mi nodo coinciden.
 
 ![Bloque génesis](https://github.com/anakb/dev-pec1/blob/master/Ejercicio%202/2.png "Bloque génesis")
 ---
