@@ -8,19 +8,21 @@
 
 **1. Archivo génesis, creación de cuenta y puesta en marcha del nodo con Geth** 
 
-Para empezar, he creado una directorio con el nombre redPrivada. Después he creado una nueva cuenta en Geth alojando los archivos en el directorio que he creado. Para crear la cuenta me ha pedido una contraseña y me ha lanzado mi address. (Comando: geth --datadir ~/redPrivada account new)
+Para empezar, he creado una directorio con el nombre redPrivada. Después he creado una nueva cuenta en Geth alojando los archivos en el directorio que he creado. Para crear la cuenta me ha pedido una contraseña y me ha lanzado mi address. 
+
+`geth --datadir ~/redPrivada account new`
 
 A continuación, he creado el archivo genesis.json y lo he alojado en el directorio redPrivada. El archivo .json (archivo génesis) define: los parámetros de la red, el coste del gas, la  dificultad y los nodos, entre otros.
 
-![Configuración de nodo en cliente geth](https://github.com/anakb/dev-pec1/blob/master//Ejercicio%201/1.png "Configuración de nodo en cliente geth")
+![Configuración de nodo en cliente geth](https://github.com/anakb/dev-pec1/blob/master/Ejercicio%201/1.png "Configuración de nodo en cliente geth")
 
 ---
 
 **2. Lanzamiento de la red** 
 
-geth --datadir ~/redPrivada/ --networkid 15
+`geth --datadir ~/redPrivada/ --networkid 15`
 
-![Lanzamiento de la red](https://github.com/anakb/dev-pec1/blob/master//Ejercicio%201/2.png "Lanzamiento de la red")
+![Lanzamiento de la red](https://github.com/anakb/dev-pec1/blob/master/Ejercicio%201/2.png "Lanzamiento de la red")
 
 ---
 
